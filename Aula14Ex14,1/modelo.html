@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contador de passos</title>
+    <link rel="stylesheet" href="modelo.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+    <section>
+        <div>
+            <p> Inicio:
+                <input type="number" name="txtinicio" id="txtinicio">
+            </p>
+            <p>Fim:
+                <input type="number" name="txtfim" id="txtfim">
+            </p>
+            <p>Passo:
+                <input type="number" name="txtpasso" id="txtpasso">
+            </p>
+            <p>
+                <input type="button" class = "botao" style="font-size: 20px;" value="verificar" onclick = "calcular()">
+            </p>
+        </div>
+        <div id = "resultado">  
+            Preparando a contagem...
+        </div>
+    </section>
+    <footer>
+        <p>&copy;Natchan</p>
+    </footer>
+</body>
+<script src="scriptmodelo.js"></script>
+</html>

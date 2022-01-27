@@ -1,0 +1,32 @@
+body{
+    background-color: deepskyblue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+header{
+    padding: 5px;
+    color: white;
+}
+section{
+    background-color: white;
+    height: auto;
+    width: 600px;
+    padding: 5px;
+    margin: auto;
+    border-radius: 25px;
+    text-align: left;
+}
+
+div{
+    text-align: left;
+    padding: 5px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 25px;
+}

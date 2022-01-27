@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Descobrindo a nacionalidade</h1>
+    Pais onde esta morando: <input type="text" name="txtNacionalidade" id="txtNacionalidade">
+    <input type="button" value="Verificar" onclick="verificacao()">
+    <div id= "resultado">
+
+    </div>
+    <script>
+        function verificacao() {
+            var txtNac = window.document.querySelector('input#txtNacionalidade')
+            var resultado = window.document.querySelector('div#resultado')
+            var nacionalidade =txtNac.value.toUpperCase()
+            resultado.innerHTML = `<p>Voçê esta morando no <strong>${nacionalidade}</strong></p>`
+            if (nacionalidade == "BRASIL") {
+                resultado.innerHTML += "Voçê é brasileiro!"
+            }else {
+                resultado.innerHTML += "Voçê é estrangeiro!"
+            }
+        }
+    </script>
+</body>
+</html>
